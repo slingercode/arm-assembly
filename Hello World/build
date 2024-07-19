@@ -1,0 +1,4 @@
+#!/bin/sh
+
+as helloworld.s -o helloworld.o
+ld helloworld.o -o run
